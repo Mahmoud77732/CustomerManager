@@ -1,0 +1,21 @@
+(1) open workbench
+	=> cerate schema "salesdb"
+	=> create a "customer" table {id, name, email, address}
+(2) create web maven project
+(3) configure dependencies{
+		spring-context, spring-webmvc, spring-orm
+		spring-data-jpa, hibernate-core, mysql-connector-java
+		javax.servlet-api, javax.servlet.jsp-api, jstl
+	}
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+(11)
+(12)
+(13)
+(14)
+(15)
