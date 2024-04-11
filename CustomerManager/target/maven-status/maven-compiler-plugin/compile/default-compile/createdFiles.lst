@@ -1,0 +1,5 @@
+com\customermanager\controller\CustomerController.class
+com\customermanager\config\WebAppInitializer.class
+com\customermanager\config\WebMvcConfig.class
+com\customermanager\JAXRSConfiguration.class
+com\customermanager\resources\JavaEE8Resource.class

@@ -7,13 +7,19 @@
 		spring-data-jpa, hibernate-core, mysql-connector-java
 		javax.servlet-api, javax.servlet.jsp-api, jstl
 	}
-(4)
-(5)
-(6)
-(7)
-(8)
-(9)
-(10)
+(4) Configure Spring Dispatcher Servlet
+	=> develop "WebAppInitializer" class and implements WebApplicationInitializer
+	=> develop "onStartup()" in "WebAppInitializer" class to get SpringDispatcherServlet
+	=> develop "@Configuration WebMvcConfig" to create @Bean{getViewResolver()}
+	=> create "controller" package and develop "CustomerController"
+	=> create "index.jsp"
+(5) Configure persistence.xml
+	=> src/main/resources/META-INF/persistence.xml
+(6) code model "Customer" class in "model" package
+(7) code Repo interface "repo" package extends CrudRepository<,>
+(8) code "@Service CustomerService" class
+(9) code "@RequestMapping("/all") getAll()" in "CustomerController" class
+(10) code "index.jsp" to display customers data
 (11)
 (12)
 (13)
