@@ -23,4 +23,8 @@ public class CustomerService {
     public List<Customer> listAll(){
         return (List<Customer>) customerRepo.findAll();
     }
+    
+    public void save(Customer customer){
+        customerRepo.save(customer);
+    }
 }

@@ -1,5 +1,9 @@
+com\customermanager\repo\CustomerRepo.class
+com\customermanager\config\JpaConfig.class
+com\customermanager\model\Customer.class
+com\customermanager\resources\JavaEE8Resource.class
 com\customermanager\controller\CustomerController.class
 com\customermanager\config\WebAppInitializer.class
 com\customermanager\config\WebMvcConfig.class
 com\customermanager\JAXRSConfiguration.class
-com\customermanager\resources\JavaEE8Resource.class
+com\customermanager\service\CustomerService.class

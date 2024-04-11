@@ -20,8 +20,8 @@
 (8) code "@Service CustomerService" class
 (9) code "@RequestMapping("/all") getAll()" in "CustomerController" class
 (10) code "index.jsp" to display customers data
-(11)
-(12)
+(11) code "@Configuration JpaConfig" class
+(12) code add new customer feature in CustomerController
 (13)
 (14)
 (15)
